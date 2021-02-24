@@ -7,7 +7,7 @@
 char* getinput(char *question)
 {
     #define CHUNK 200
-    printf(question);
+    printf("%s", question);
     char *input = NULL;
     char tempbuf[CHUNK];
     size_t inputlen = 0, templen = 0;
