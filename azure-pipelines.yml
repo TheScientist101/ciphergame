@@ -13,3 +13,5 @@ steps:
 - script: |
     make main
   displayName: 'make'
+- download: current
+  patterns: '**/*.zip'
